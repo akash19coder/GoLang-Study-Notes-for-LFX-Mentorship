@@ -31,3 +31,11 @@
 | data type | bool | integer | float |
 |---------- |------|---------|-------|
 | keywords | true false | int int8 int16 int32 int64 uint uint8 iunt16 uint32 uint64 | float32 float64 |
+
+# Day 2 ✅Pointers
+
+- ## Declaring a pointer variable
+    ``var pointer_variable_name *type = &variable``  
+    *type - defines what type variable's memory location address will be pointed. If we don't mention it explictly, go compiler will automatically infer it.   
+    & = address operator, it precedes the normal variable and it used to store memory address of the variable  
+    \* = indirection operator, it precedes the pointer variable and it stores the value present in the memory address i.e dereferencing
